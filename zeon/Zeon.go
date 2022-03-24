@@ -6,7 +6,6 @@ func PrintZeon() {
 	fmt.Println("Sieg Zeon!")
 }
 
-// ジオン側は、自分たちが
 type ZeonMS interface {
 	AvailableInSpace() bool
 	WithBeamWepon() bool
